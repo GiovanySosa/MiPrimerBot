@@ -1,6 +1,10 @@
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
 
+
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix="!", help_command=None)
 
@@ -29,4 +33,4 @@ async def help(ctx):
 
 bot.load_extension("cogs.raid")
 bot.load_extension("cogs.funny")
-bot.run("ODY1MzU1NTUzNDI4NjAyODkw.YPCzKQ.bOM7WryW3nxcg9O3CeuqnHQbEZ4")
+bot.run(TOKEN)
