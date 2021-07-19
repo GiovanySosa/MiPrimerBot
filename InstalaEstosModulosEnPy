@@ -1,0 +1,5 @@
+discord.py==1.7.1
+pipenv==2020.11.15
+python-dotenv==0.17.1
+async-timeout==3.0.1
+asyncio==3.4.3 
