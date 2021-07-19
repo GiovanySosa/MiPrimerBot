@@ -79,3 +79,5 @@ def setup(bot):
     bot.add_cog(funny(bot))
 
 """
+
+# Listo ya puedes cargar tu extencion.
