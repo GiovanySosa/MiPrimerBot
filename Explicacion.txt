@@ -1,0 +1,8 @@
+hola! soy Gio, bueno te explico. para poder usar este bot ten por lo menos conocimiento basicos sobre pyhon, ya que este lenguaje sera quien nos guie.
+
+Resumen. 
+
+-El main.py es un archivo de arranque; es decir, es el archivo importante para que nuestro bot funcione.
+-Todos los codigos pueden ir en el main sin necesidad de usar cogs.
+-La carpeta cogs nos facilita la organizacion de nuestros codigos, en este caso hace que podamos trabajar por categorias y con un codigo limpio.
+-Dentro la carpeta cogs; hay archivos por categoria. y tambien estos se configurand de otra forma pero bueno, ahi te dejare otro archivo
