@@ -2,33 +2,12 @@ from discord.ext import commands
 import discord
 import asyncio
 
+# DEDUCE EL CODIGO, TODO LO HE MOSTRADO ANTES
 
 
 class raid(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-
-
-
-    @commands.has_permissions(administrator=True)
-    @commands.command()
-    async def nuke(self, ctx, channel: discord.TextChannel = None):
-        if channel == None:
-            await ctx.send("No has mencionado un canal")
-            return
-
-        nuke_channel = discord.utils.get(ctx.guild.channels, name=channel.name)
-
-        if nuke_channel is not None:
-            new_channel = await nuke_channel.clone(reason="Nuked Activado!")
-            await nuke_channel.delete()
-            await new_channel.send("este canal ha sido Nukeado!")
-            await ctx.send("Nuke completado!")
-
-        else:
-            await ctx.send(f"nombre de canal {channel.name} no existe!")
-
-
 
 
     @commands.command()
