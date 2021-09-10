@@ -61,7 +61,7 @@ Aca crearemos nuestro primer embed. todos se crean asi:
     await ctx.send(embed=embed) # <-- por ultimo pondremos el await para que nuestro bot envie el embed al usar el comando !help: ctx.send(embed=nombredelavariable)
 
 
-" FELICIDADES ESTE ES TU PRIMER COMANDO
+# FELICIDADES ESTE ES TU PRIMER COMANDO
 
 
 
